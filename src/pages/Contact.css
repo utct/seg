@@ -1,0 +1,109 @@
+.contact-page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.contact-banner {
+  background-color: #f5f1e7;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 40px;
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.banner-subtitle {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+}
+
+.contact-form-container {
+  width: 40%; 
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+.form-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-subheading {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%; 
+  max-width: 100%;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.submit-button {
+  padding: 10px 18px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 150px;
+}
+
+.submit-button:hover {
+  background-color: #333;
+}
+
+.call-agent-section {
+  width: 40%;
+  margin: 0 auto 60px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.call-agent-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.call-agent-section p {
+  font-size: 1.1rem;
+}
+
+.read-only-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100%;
+  color: #757575;
+  background-color: #f1f1f1;
+  cursor: not-allowed;
+}

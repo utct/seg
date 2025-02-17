@@ -1,0 +1,42 @@
+.confirmation-page {
+  text-align: center;
+  margin-top: 0;
+}
+
+.confirmation-banner {
+  background-color: #f5f1e7;
+  padding: 60px 0;
+}
+
+.confirmation-banner h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #000;
+  margin-top: 70px;
+}
+
+.confirmation-banner p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.reservation-details {
+  margin-top: 40px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reservation-details h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.reservation-details p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
